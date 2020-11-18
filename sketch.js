@@ -70,7 +70,7 @@ function setup() {
 }
 function draw() {
   background("pink"); 
-  //Engine.update(engine);
+  Engine.update(engine);
   text(mouseX + ',' + mouseY, 10, 15);
   textSize(20);
   fill("lightyellow");
