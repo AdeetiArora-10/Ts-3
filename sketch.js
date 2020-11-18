@@ -69,9 +69,7 @@ function setup() {
 
 }
 function draw() {
-  //background(56,44,44); 
-  if(backgroundImg)
-    background(backgroundImg);
+  background("pink"); 
   //Engine.update(engine);
   text(mouseX + ',' + mouseY, 10, 15);
   textSize(20);
